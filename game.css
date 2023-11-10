@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Indie Flower, Arial;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 8%;
+}
+
+#start-replay-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 40%;
+}
+
+#start-replay {
+    font-size: 100px;
+    cursor: pointer;
+}
+
+#score, #level {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 30px;
+    color: rgb(31, 68, 72)
+}
+
+#canvas {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+    background-image: url('images/Ocean-Background.png');
+}
+
+#source {
+    display: none;
+}
+
+#fish-1, #fish-2, #fish-3 {
+    display: none;
+}
+
